@@ -138,8 +138,8 @@ This section shows the status of tutor hires, including updates on pending, conf
 
 ### Prerequisites
 - Java Development Kit (JDK)
-- Node.js and npm
-- MySQL or PostgreSQL
+- tomcat v10.1 server , Eclipse IDE.
+- MySQL or PostgreSQ
 - Google Cloud account for Google Meet API
 
 ### Setting Up Backend
