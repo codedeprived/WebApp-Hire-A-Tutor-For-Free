@@ -1,5 +1,14 @@
 # WebApp-Hire-A-Tutor-For-Free
+## please See.
+This is a personal project and all TechStack are subject to change by me if required , currently used Servlets and JSP + Tailwind to convert my Java CLI application to web Applciation
+## Future Goals 
+- Refactor Entire Code base to spring
+- Refactor Entrire Code base to spring-boot
 
+## Outcome
+- I am Refactoring Entire code base if required to implement new technology as its for learning purpose only
+- I invite contributors to contribute / generate my initialy written shit code. (i myself realised the code i written 1 month ago is shit ).
+- feed back is much appreciated.
 ## Overview
 This project is a collaborative learning platform where users can post their doubts and get help from other users. Users who clear doubts receive points that increase their ranking on the platform. The platform offers an easy way to connect users with tutors for hire.
 
