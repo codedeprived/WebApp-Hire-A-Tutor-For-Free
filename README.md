@@ -24,8 +24,8 @@ This project is a collaborative learning platform where users can post their dou
 ### 1. Dashboard Overview
 The dashboard gives users an overview of their activities, current points, and tutor recommendations.
 
-![Dashboard 1](./screenshots/1.img)
-![Dashboard 2](./screenshots/2.image)
+![Dashboard 1](./screenshots/1.png)
+![Dashboard 2](./screenshots/2.png)
 
 *Features Highlighted:*
 - Overview of tutor hiring options.
@@ -36,14 +36,14 @@ The dashboard gives users an overview of their activities, current points, and t
 ### 2. Login Page
 The login page allows users to access the platform, ensuring secure authentication using JWT or OAuth. The user-friendly interface makes logging in quick and intuitive.
 
-![Login](./screenshots/3.img)
+![Login](./screenshots/3.png)
 
 ---
 
 ### 3. User Dashboard
 Once logged in, users have access to their personalized dashboard. Here, users can manage their profiles, view doubts they have posted, and see their progress.
 
-![User Dashboard](./screenshots/4.img)
+![User Dashboard](./screenshots/4.png)
 
 *Features Highlighted:*
 - Profile management.
@@ -54,8 +54,8 @@ Once logged in, users have access to their personalized dashboard. Here, users c
 ### 4. Student Dashboard
 This section is tailored for students looking to hire tutors. The dashboard provides a list of available tutors and allows users to easily manage their hiring requests.
 
-![Student Dashboard 1](./screenshots/5.img)
-![Student Dashboard 2](./screenshots/6.img)
+![Student Dashboard 1](./screenshots/5.png)
+![Student Dashboard 2](./screenshots/6.png)
 
 *Features Highlighted:*
 - Browse and hire tutors.
@@ -66,8 +66,8 @@ This section is tailored for students looking to hire tutors. The dashboard prov
 ### 5. Hire Dashboard
 This dashboard displays the status of tutor hiring. Users can view pending hires, confirmed tutors, and the status of ongoing requests.
 
-![Hire Dashboard](./screenshots/7.img)
-![Hire Dashboard (Previous Hire)](./screenshots/8.img)
+![Hire Dashboard](./screenshots/7.png)
+![Hire Dashboard (Previous Hire)](./screenshots/8.png)
 
 *Features Highlighted:*
 - Manage tutor hires, including viewing previously hired tutors.
@@ -78,7 +78,7 @@ This dashboard displays the status of tutor hiring. Users can view pending hires
 ### 6. Hire Status Updates
 This section shows the status of tutor hires, including updates on pending, confirmed, or cancelled requests. It reflects the real-time status of each hire as the tutor approves or cancels the request.
 
-![Status](./screenshots/9.img)
+![Status](./screenshots/9.png)
 
 *Features Highlighted:*
 - Real-time updates for tutor hire status (Pending, Confirmed, Cancelled).
