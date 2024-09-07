@@ -9,6 +9,8 @@ public interface HireService {
 
 	Hire getHireRequest(int tutorId);
 
+	Hire getHireStatus(String email);
+
 	Hire getHireStatus(int studentId);
 
 }

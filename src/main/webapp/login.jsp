@@ -45,7 +45,7 @@
 <div class="container">
     <div class="form-container">
         <h2 class="form-title">Login Page</h2>
-        <form id="loginForm" action="dologin" method="post">
+        <form id="loginForm" action="login" method="post">
             <!-- Email -->
             <div class="mb-3">
                 <label for="email" class="form-label">Email:</label>

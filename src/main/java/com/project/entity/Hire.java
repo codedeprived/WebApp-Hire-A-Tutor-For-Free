@@ -100,7 +100,7 @@ public class Hire {
 	}
 
 	public Status getStatus() {
-		return status;
+		return Status.PENDING;
 	}
 
 	public void setStatus(Status status) {

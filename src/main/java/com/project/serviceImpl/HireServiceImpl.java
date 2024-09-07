@@ -31,4 +31,10 @@ public class HireServiceImpl implements HireService {
 		return hD.getHireStatus(studentId);
 	}
 
+	@Override
+	public Hire getHireStatus(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

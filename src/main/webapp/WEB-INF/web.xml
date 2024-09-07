@@ -10,7 +10,28 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginWebController</servlet-name>
-        <url-pattern>/dologin</url-pattern>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
-    
+    <servlet>
+        <!-- Define the servlet name and its class -->
+        <servlet-name>StudentController</servlet-name>
+        <servlet-class>com.project.webcontrollers.StudentController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <!-- Map the servlet to a URL pattern -->
+        <servlet-name>StudentController</servlet-name>
+        <url-pattern>/StudentController</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <!-- Define the servlet name and its class -->
+        <servlet-name>HireController</servlet-name>
+        <servlet-class>com.project.webcontrollers.HireWebController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <!-- Map the servlet to a URL pattern -->
+        <servlet-name>HireController</servlet-name>
+        <url-pattern>/hireTutor</url-pattern>
+    </servlet-mapping>
 </web-app>

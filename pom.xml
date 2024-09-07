@@ -15,20 +15,44 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
-<dependency>
-    <groupId>jakarta.servlet</groupId>
-    <artifactId>jakarta.servlet-api</artifactId>
-    <version>5.0.0</version>
-    <scope>provided</scope>
-</dependency>
+		<!--
+		https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>5.0.0</version> <!-- Or appropriate version -->
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp</groupId>
+			<artifactId>jakarta.servlet.jsp-api</artifactId>
+			<version>3.0.0</version> <!-- Or appropriate version -->
+			<scope>provided</scope>
+		</dependency>
+		<!-- JSTL Dependency -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version> <!-- Or another compatible version -->
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp</groupId>
+			<artifactId>jakarta.servlet.jsp-api</artifactId>
+			<version>2.3.6</version> <!-- Adjust as needed -->
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version> <!-- Use the version that suits your setup -->
+		</dependency>
 
-   <dependency>
-        <groupId>jakarta.servlet.jsp</groupId>
-        <artifactId>jakarta.servlet.jsp-api</artifactId>
-        <version>3.0.0</version>
-        <scope>provided</scope>
-    </dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp</groupId>
+			<artifactId>jakarta.servlet.jsp-api</artifactId>
+			<version>3.0.0</version>
+			<scope>provided</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

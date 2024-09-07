@@ -21,7 +21,7 @@ public class LoginWebController extends HttpServlet {
 	@Override
 	public void init() throws ServletException {
 		super.init();
-		System.out.println("Servlet initialization called.");
+		System.out.println("Servlet initialization called.");// debug statements;
 		adminService = new AdminServiceImpl();
 		userService = new UserServiceImpl();
 	}
@@ -46,6 +46,7 @@ public class LoginWebController extends HttpServlet {
 		System.out.println("status: " + authenticationStatus);
 		if (authenticationStatus) {
 			if (role.equalsIgnoreCase("user")) {
+
 				response.sendRedirect("userDashboard.jsp");
 
 			} else if (role.equalsIgnoreCase("admin")) {

@@ -16,10 +16,10 @@ public interface UserService {
 
 	boolean searchUser(String email);
 
-	public boolean userAuthentication(String email, String password);
-
 	User getUser(String email);
 
 	User getUser(int UserId);
+
+	boolean userAuthentication(String email, String password);
 
 }
