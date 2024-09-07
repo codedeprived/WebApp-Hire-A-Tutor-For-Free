@@ -1,15 +1,15 @@
 # WebApp-Hire-A-Tutor-For-Free
-# Collaborative Learning Platform
 
 ## Overview
-This project is a collaborative learning platform where users can post their doubts and get help from other users. Users who clear doubts receive points that increase their ranking on the platform.
+This project is a collaborative learning platform where users can post their doubts and get help from other users. Users who clear doubts receive points that increase their ranking on the platform. The platform offers an easy way to connect users with tutors for hire.
 
 ## Features
 - User Registration and Profiles
-- Posting Doubts
-- Matching Users
-- Creating Meeting Rooms
-- Clearing Doubts and Points System
+- Posting Doubts and Questions
+- Matching Users with Tutors
+- Creating Meeting Rooms (via Google Meet or Zoom API)
+- Points and Ranking System
+- Managing Hiring and Tutor Approvals
 
 ## Tech Stack
 - **Frontend:** Angular/React.js, HTML, CSS, JavaScript
@@ -19,40 +19,107 @@ This project is a collaborative learning platform where users can post their dou
 - **Video Conferencing API:** Google Meet API, Zoom API
 - **Hosting:** AWS, Heroku, or DigitalOcean
 
+## Progress
+
+### 1. Dashboard Overview
+The dashboard gives users an overview of their activities, current points, and tutor recommendations.
+
+![Dashboard 1](./screenshots/1.img)
+![Dashboard 2](./screenshots/2.image)
+
+*Features Highlighted:*
+- Overview of tutor hiring options.
+- Easy access to user statistics and points.
+
+---
+
+### 2. Login Page
+The login page allows users to access the platform, ensuring secure authentication using JWT or OAuth. The user-friendly interface makes logging in quick and intuitive.
+
+![Login](./screenshots/3.img)
+
+---
+
+### 3. User Dashboard
+Once logged in, users have access to their personalized dashboard. Here, users can manage their profiles, view doubts they have posted, and see their progress.
+
+![User Dashboard](./screenshots/4.img)
+
+*Features Highlighted:*
+- Profile management.
+- View doubts posted and resolved.
+
+---
+
+### 4. Student Dashboard
+This section is tailored for students looking to hire tutors. The dashboard provides a list of available tutors and allows users to easily manage their hiring requests.
+
+![Student Dashboard 1](./screenshots/5.img)
+![Student Dashboard 2](./screenshots/6.img)
+
+*Features Highlighted:*
+- Browse and hire tutors.
+- View current and past tutor requests.
+
+---
+
+### 5. Hire Dashboard
+This dashboard displays the status of tutor hiring. Users can view pending hires, confirmed tutors, and the status of ongoing requests.
+
+![Hire Dashboard](./screenshots/7.img)
+![Hire Dashboard (Previous Hire)](./screenshots/8.img)
+
+*Features Highlighted:*
+- Manage tutor hires, including viewing previously hired tutors.
+- Track the status of current and past hires.
+
+---
+
+### 6. Hire Status Updates
+This section shows the status of tutor hires, including updates on pending, confirmed, or cancelled requests. It reflects the real-time status of each hire as the tutor approves or cancels the request.
+
+![Status](./screenshots/9.img)
+
+*Features Highlighted:*
+- Real-time updates for tutor hire status (Pending, Confirmed, Cancelled).
+- Easy-to-follow status changes for users.
+
+---
+
 ## Tasks
 
 ### 1. Planning and Design
-- [ ] Define overall architecture and technologies
-- [ ] Design user interface and user experience
-- [ ] Create wireframes and prototypes
+- [x] Define overall architecture and technologies
+- [x] Design user interface and user experience
+- [x] Create wireframes and prototypes
 
 ### 2. Backend Development
-- [ ] Set up a Spring Boot project
-- [ ] Create database schema for users, doubts, meetings, and points using Hibernate and JPA
-- [ ] Develop RESTful APIs for communication between frontend and backend
+- [x] Set up a Spring Boot project
+- [x] Create database schema for users, doubts, meetings, and points using Hibernate and JPA
+- [x] Develop RESTful APIs for communication between frontend and backend
 
 ### 3. Frontend Development
-- [ ] Set up a frontend project using Angular/React
-- [ ] Develop components for user registration, login, doubt posting, and profile viewing
-- [ ] Implement responsive design for accessibility on various devices
+- [x] Set up a frontend project using Angular/React
+- [x] Develop components for user registration, login, doubt posting, and profile viewing
+- [x] Implement responsive design for accessibility on various devices
 
 ### 4. User Authentication
-- [ ] Implement user registration and login endpoints in Spring Boot
-- [ ] Secure authentication using Spring Security and JWT or OAuth
+- [x] Implement user registration and login endpoints in Spring Boot
+- [x] Secure authentication using Spring Security and JWT or OAuth
 
 ### 5. Doubt Posting and Matching
-- [ ] Implement functionality for posting doubts with categories
-- [ ] Develop a matching algorithm to match users with suitable helpers
-- [ ] Create API endpoints for doubt posting and matching
+- [x] Implement functionality for posting doubts with categories
+- [x] Develop a matching algorithm to match users with suitable helpers
+- [x] Create API endpoints for doubt posting and matching
 
 ### 6. Meeting Room Integration
-- [ ] Integrate Google Meet API for creating meeting links
+- [x] Integrate Google Meet API for creating meeting links
 - [ ] Provide users with the option to choose internal or external communication platforms
 
 ### 7. Points and Ranking System
-- [ ] Create an API endpoint for confirming doubt clearance
-- [ ] Update user points and ranking in the database
-- [ ] Display points and rankings on user profiles
+- [x] Create an API endpoint for confirming doubt clearance
+- [x] Update user points and ranking in the database
+- [x] Display points and rankings on user profiles
 
 ### 8. Testing
 - [ ] Conduct unit testing for backend services
@@ -76,6 +143,6 @@ This project is a collaborative learning platform where users can post their dou
 - Google Cloud account for Google Meet API
 
 ### Setting Up Backend
-1. Clone the repository
+1. Clone the repository:
    ```bash
    git clone https://github.com/codedeprived/WebApp-Hire-A-Tutor-For-Free.git
